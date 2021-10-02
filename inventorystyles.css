@@ -1,5 +1,9 @@
 /* unnecessary styles */
 
+* {
+    user-select: none;
+}
+
 body, html{
     margin: 0;
     padding: 0;
@@ -154,7 +158,13 @@ body, html{
     right: 25%;
     top: 82%;
 }
+ 
 
+.droppedItemBox {
+    height: 90%;
+    background-image: url(./images/bg2.png);
+    background-size: cover;
+}
 
 .imageitem img{
     width: 60%;
