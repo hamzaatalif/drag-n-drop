@@ -1,0 +1,370 @@
+/* unnecessary styles */
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+/* styles starts here */
+.rd_inventorycontaineroverall{
+    padding: 20px 10px;
+    background-image: url(images/Ebene\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.rd_inventorycontaineroverall *{
+    box-sizing: border-box;
+}
+
+.flexinventorycont{
+    display: flex;
+    height: 100%;
+}
+
+.rd_column{
+    flex: 1;
+    height: 100%;
+    margin: 0 10px;
+}
+.rd_halfheightcontaineritem{
+    height: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+.rd_fullheightcontaineritem{
+    height: 100%;
+}
+.rd_halfheightcontaineritem, .rd_fullheightcontaineritem{
+    background-color: rgba(255, 255, 255, 0.657);
+    background: linear-gradient(-180deg, rgb(213 213 213 / 70%) 0%, rgba(105, 105, 105, 0.7) 100%);
+}
+
+.rd_toppart{
+    text-align: center;
+    position: relative;
+}
+
+.rd_toppart::after{
+    content: "";
+    top: 100%;
+    left: 2.5%;
+    width: 95%;
+    position: absolute;
+    height: 2px;
+    background: rgb(187,63,150);
+    background: linear-gradient(87deg, rgba(187,63,150,1) 0%, rgba(131,54,184,1) 100%);
+}
+
+.rd_toppart h3{
+    font-size: 25px;
+    background: -webkit-linear-gradient(#bb3f96, #8336b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0px;
+    font-weight: 500;
+}
+
+
+.rd_closebuttonin{
+    font-size: 20px;
+    background: -webkit-linear-gradient(#bb3f96, #8336b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    top: 5px; 
+    cursor: pointer;
+}
+
+.rd_bodyitems{
+    height: 95%;
+    background-image: url(images/body.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 80%;
+    position: relative;
+    margin-top: 30px;
+}
+.rd_item{
+    position: absolute;
+    height: 4vw;
+    font-size: 0.6vw;
+    width: 4vw;
+    background: linear-gradient(87deg, rgba(187, 63, 150, 0.4) 0%, rgba(132, 54, 184, 0.4) 100%);
+}
+.rd_topitem_part{
+    background: linear-gradient(87deg, rgba(187,63,150,1) 0%, rgba(131,54,184,1) 100%);
+    color: white;
+    text-align: center;
+}
+
+
+.rd_item1{
+    left: 40%;
+    top: 1.5%;
+}
+
+.rd_item2{
+    left: 23%;
+    top: 14%;
+}
+
+.rd_item3{
+    left: 10%;
+    top: 33%;
+}
+
+
+
+.rd_item4{
+    left: 13%;
+    top: 50%;
+}
+
+.rd_item5{
+    left: 20%;
+    top: 70%;
+}
+
+.rd_item6{
+    left: 67%;
+    top: 10%;
+}
+
+.rd_item7{
+    left: 71%;
+    top: 25%;
+}
+
+.rd_item8{
+    right: 13%;
+    top: 50%;
+}
+.rd_item9{
+    right: 23%;
+    top: 59%;
+}
+
+.rd_item10{
+    right: 25%;
+    top: 82%;
+}
+
+
+.imageitem img{
+    width: 60%;
+    margin: 10% 20%;
+    cursor: pointer;
+}
+
+.rd_itemthing2cont{
+    overflow: auto;
+    height: calc(100% - 75px);
+}
+
+
+/* width */
+.rd_itemthing2cont::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  .rd_itemthing2cont::-webkit-scrollbar-track {
+    background: #f1f1f148;
+  }
+  
+  /* Handle */
+  .rd_itemthing2cont::-webkit-scrollbar-thumb {
+    background: rgb(187,63,150);
+    background: linear-gradient(0deg, rgba(187,63,150,0.6) 0%, rgba(139,55,179,0.6) 100%);
+  }
+  
+  /* Handle on hover */
+  .rd_itemthing2cont::-webkit-scrollbar-thumb:hover {
+    background: rgb(187,63,150);
+    background: linear-gradient(0deg, rgba(187,63,150,1) 0%, rgba(139,55,179,1) 100%);
+  }
+
+
+
+.rd_howmuchweight{
+    background: rgb(187,63,150);
+    background: linear-gradient(87deg, rgba(187,63,150,1) 0%, rgba(139,55,179,1) 82%, rgba(131,54,184,0) 100%);
+    color: white;
+    text-align: center;
+    width: 95%;
+    margin: 10px 2.5%;
+    font-size: 12px;
+}
+
+.rd_itemcontaineritem{
+    width: 95%;
+    margin: 0 2.5%;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    background: rgb(187,63,150);
+    background: linear-gradient(87deg, rgba(187, 63, 150, 0.6) 0%, rgba(140, 55, 179, 0.6) 100%);
+}
+
+.rd_itemcontaineritem:hover, .rd_itemcontaineritem:focus, .rd_itemcontaineritem:active{
+    background: rgb(187,63,150);
+    background: linear-gradient(87deg, rgba(187,63,150,1) 0%, rgba(139,55,179,1) 100%);
+}
+.rd_itemcontaineritem h4{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin: 0;
+    
+}
+.rd_itemcontaineritem h4 img{
+    margin: 10px;
+    width: 30px;
+}
+
+.rd_itemcontaineritem h4 span{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+
+.rd_tabitembar{
+    display: flex;
+    margin: 0 10px;
+}
+
+.rd_tabitembaritem{
+    width: 100px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.rd_tabitembaritem.active{
+    background: rgba(255, 255, 255, 0.301);
+    background: linear-gradient(0deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.4) 35%, rgba(255,255,255,0.4) 72%, rgba(255,255,255,0) 100%);
+}
+.rd_tabitembaritem img{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.rdinventorycontenttabflex{
+    display: flex;
+    margin: 0 10px;
+    height: calc(100% - 200px);
+}
+
+.rd_itemhereinventop{
+    flex: 6;
+    margin: 0 10px 0 0;
+    background: rgba(255, 255, 255, 0.281);
+    background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 74%, rgba(255,255,255,0) 100%);
+    height: 100%;
+}
+
+.rd_sidemenu{
+    width: 50px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.281);
+    background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 74%, rgba(255,255,255,0) 100%);
+
+}
+
+.rd_sidebuttonthing .rd_activeimage{
+    display: none;
+}
+
+.rd_sidebuttonthing.active .rd_nomalimage{
+    display: none;
+}
+
+.rd_sidebuttonthing.active .rd_activeimage{
+    display: block;
+}
+
+
+.rd_sidebuttonthing{
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.rd_sidebuttonthing img{
+    width: 90%;
+}
+
+
+.rd_otherflex3co{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rd_otherflex3coitem{
+    flex: calc(100% / 3 - 20px);
+    margin: 2px;
+    background: rgb(187,63,150);
+    color: white;
+    padding:5px 10px;
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(139,55,179,0.6) 0%, rgba(187,63,150,0.6) 100%);
+}
+.rd_otherflex3coitem:hover{
+    background: linear-gradient(0deg, rgba(139,55,179,1) 0%, rgba(187,63,150,1) 100%);
+}
+.rd_otherflex3coitem img{
+    vertical-align: middle;
+    height: 25px;
+
+}
+@media only screen and (max-width: 720px){
+    .flexinventorycont{
+        flex-direction: column;
+        height: unset;
+    }
+
+    .rd_fullheightcontaineritem{
+        margin-bottom: 20px;
+        height: calc(100vh - 40px);
+    }
+
+    .rd_halfheightcontaineritem{
+        margin-bottom: 20px;
+        height: calc(30vh - 40px);
+    }
+
+    .rd_inventorycontaineroverall{
+        height: unset;
+    }
+
+    .rd_item{
+        position: absolute;
+        height: 4vh;
+        font-size: 0.8vh;
+        width: 4vh;
+    }
+
+
+
+    .rd_tabitembaritem{
+        width: unset;
+        flex: 1;
+        font-size: 8px;
+        padding: 10px 0;
+    }
+}
