@@ -96,9 +96,10 @@ body, html{
 }
 .rd_item{
     position: absolute;
+    overflow: hidden;
     height: 4vw;
     font-size: 0.6vw;
-    width: 4vw;
+    width: 3.6vw;
     background: linear-gradient(87deg, rgba(187, 63, 150, 0.4) 0%, rgba(132, 54, 184, 0.4) 100%);
 }
 .rd_topitem_part{
@@ -161,7 +162,7 @@ body, html{
  
 
 .droppedItemBox {
-    height: 90%;
+    height: 95%;
     background-image: url(./images/bg2.png);
     background-size: cover;
 }
