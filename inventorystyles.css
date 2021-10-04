@@ -163,7 +163,7 @@ body, html{
 
 .droppedItemBox {
     height: 95%;
-    background-image: url(./images/bg2.png);
+    /* background-image: url(./images/bg2.png); */
     background-size: cover;
 }
 
@@ -257,7 +257,7 @@ body, html{
     cursor: pointer;
     padding: 10px;
     font-size: 14px;
-}
+}script
 
 
 .rd_tabitembaritem.active{
@@ -315,6 +315,7 @@ body, html{
     position: relative;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 .rd_sidebuttonthing img{
     width: 90%;
@@ -341,8 +342,13 @@ body, html{
 .rd_otherflex3coitem img{
     vertical-align: middle;
     height: 25px;
-
 }
+
+.active-btn {
+    background: rgba(255, 255, 255, 0.301);
+    background: linear-gradient(0deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.4) 35%, rgba(255,255,255,0.4) 72%, rgba(255,255,255,0) 100%);
+}
+
 @media only screen and (max-width: 720px){
     .flexinventorycont{
         flex-direction: column;
@@ -378,4 +384,12 @@ body, html{
         font-size: 8px;
         padding: 10px 0;
     }
+}
+
+.not-active {
+    display: none;
+}
+
+.menu-items-container {
+    height: 100%;
 }

@@ -33,7 +33,7 @@
                     <div class="rd_bodyitems" id="bodyitems">
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item1" id="Klamotten1" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Hut
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -42,7 +42,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item2" id="Klamotten2" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Ohrringe
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -51,7 +51,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item3" id="Klamotten3" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Oberteil
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -60,7 +60,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item4" id="Klamotten4" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Uhr
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -69,7 +69,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item5" id="Klamotten5" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Accessories
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -78,7 +78,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item6" id="Klamotten6" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Brille
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -87,7 +87,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item7" id="Klamotten7" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Unterhemd
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -96,7 +96,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item8" id="Klamotten8" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Armband
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -105,7 +105,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item9" id="Klamotten9" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Hose
                             </div>
                             <div class="droppedItemBox" draggable="false">
@@ -114,7 +114,7 @@
                         <!-- first column item ends here -->
                         <!-- first column item starts here -->
                         <div class="rd_item rd_item10" id="Klamotten10" ondrop="drop(event)" ondragover="allowDrop(event)">
-                            <div class="rd_topitem_part">
+                            <div class="rd_topitem_part" ondragover="noAllowDrop(event)">
                                 Schuhe
                             </div>
                             <div class="droppedItemBox" draggable="false" ondrop="dropCheck(event)" ondragover="allowDrop(event)">
@@ -151,7 +151,7 @@
                     <!-- draggable items container -->
                     <div class="rd_itemthing2cont" id="rucksackItemsContainer" ondrop="drop(event)" ondragover="allowDrop(event)">
                         <!-- item starts here -->
-                        <div class="rd_itemcontaineritem" id="rucksack1" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                        <div class="rd_itemcontaineritem" id="rucksackBig1" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                             <h4>
                                 <img src="images/imageitem.png" draggable="false">
                                 Gebackener Apfel mit Teigmantel
@@ -162,7 +162,7 @@
                         </div>
                         <!-- item ends here -->
                         <!-- item starts here -->
-                        <div class="rd_itemcontaineritem"  id="rucksack2" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                        <div class="rd_itemcontaineritem"  id="rucksackBig2" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                             <h4>
                                 <img src="images/imageitem.png" draggable="false">
                                 Gebackener Apfel mit Teigmantel
@@ -173,7 +173,7 @@
                         </div>
                         <!-- item ends here -->
                         <!-- item starts here -->
-                        <div class="rd_itemcontaineritem" id="rucksack3" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                        <div class="rd_itemcontaineritem" id="rucksackBig3" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                             <h4>
                                 <img src="images/imageitem.png" draggable="false">
                                 Gebackener Apfel mit Teigmantel
@@ -184,7 +184,7 @@
                         </div>
                         <!-- item ends here -->
                         <!-- item starts here -->
-                        <div class="rd_itemcontaineritem" id="rucksack4" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                        <div class="rd_itemcontaineritem" id="rucksackBig4" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                             <h4>
                                 <img src="images/imageitem.png" draggable="false">
                                 Gebackener Apfel mit Teigmantel
@@ -195,7 +195,7 @@
                         </div>
                         <!-- item ends here -->
                         <!-- item starts here -->
-                        <div class="rd_itemcontaineritem" id="rucksack5" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                        <div class="rd_itemcontaineritem" id="rucksackBig5" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                             <h4>
                                 <img src="images/imageitem.png" draggable="false">
                                 Gebackener Apfel mit Teigmantel
@@ -206,7 +206,7 @@
                         </div>
                         <!-- item ends here -->
                         <!-- item starts here -->
-                        <div class="rd_itemcontaineritem" id="rucksack6" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                        <div class="rd_itemcontaineritem" id="rucksack6Big" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                             <h4>
                                 <img src="images/imageitem.png" draggable="false">
                                 Gebackener Apfel mit Teigmantel
@@ -217,7 +217,7 @@
                         </div>
                         <!-- item ends here -->
                         <!-- item starts here -->
-                        <div class="rd_itemcontaineritem" id="rucksack7" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                        <div class="rd_itemcontaineritem" id="rucksackBig7" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                             <h4>
                                 <img src="images/imageitem.png" draggable="false">
                                 Gebackener Apfel mit Teigmantel
@@ -228,7 +228,7 @@
                         </div>
                         <!-- item ends here -->
                         <!-- item starts here -->
-                        <div class="rd_itemcontaineritem" id="rucksack8" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                        <div class="rd_itemcontaineritem" id="rucksackBig8" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                             <h4>
                                 <img src="images/imageitem.png" draggable="false">
                                 Gebackener Apfel mit Teigmantel
@@ -260,7 +260,7 @@
                     </div>
                     <!-- info div ends here -->
                     <!-- draggable items container starts here -->
-                    <div class="rd_itemthing2cont">
+                    <div class="rd_itemthing2cont" id="kofferraumItemsContainer" ondrop="drop(event)" ondragover="allowDrop(event)">
                     </div>
                     <!-- draggable items container ends here -->
                 </div>
@@ -288,23 +288,23 @@
 
                     <!-- inventor menu starts here -->
                     <div class="rd_tabitembar">
-                        <div class="rd_tabitembaritem">
+                        <div class="rd_tabitembaritem menu-btn active-btn">
                             <img src="images/imageitem.png">
                             Inventar
                         </div>
-                        <div class="rd_tabitembaritem">
+                        <div class="rd_tabitembaritem menu-btn">
                             <img src="images/imageitem.png">
                             Schlüsselbund
                         </div>
-                        <div class="rd_tabitembaritem">
+                        <div class="rd_tabitembaritem menu-btn">
                             <img src="images/imageitem.png">
                             Geldbeutel
                         </div>
-                        <div class="rd_tabitembaritem">
+                        <div class="rd_tabitembaritem menu-btn">
                             <img src="images/imageitem.png">
                             Klamotten
                         </div>
-                        <div class="rd_tabitembaritem">
+                        <div class="rd_tabitembaritem menu-btn">
                             <img src="images/imageitem.png">
                             Rucksack
                         </div>
@@ -324,7 +324,7 @@
 
                             <!-- inventor showroom starts here -->
                             <div class="rd_itemthing2cont">
-                                <div id="inventorItemsContainer" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                <div id="inventorItemsContainer" class="inventor-items menu-items-container" ondrop="drop(event)" ondragover="allowDrop(event)">
                                     <div class="rd_itemcontaineritem" id="inventor1" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                                         <h4>
                                             <img src="images/imageitem.png" draggable="false">
@@ -371,19 +371,19 @@
                                         </h4>
                                     </div>
                                 </div>
-                                <div class="rd_itemthing2cont">
-                                    <div class="rd_itemcontaineritem">
+                                <div class="rd_itemthing2cont schluss-items menu-items-container not-active" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                    <div class="rd_itemcontaineritem" id="schluss1" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                                         <h4>
-                                            <img src="images/imageitem.png">
+                                            <img src="images/imageitem.png" draggable="false">
                                             Gebackener Apfel mit Teigmantel            
                                             <span>
                                                 0.56 kg
                                             </span>
                                         </h4>
                                     </div>
-                                    <div class="rd_itemcontaineritem">
+                                    <div class="rd_itemcontaineritem" id="schluss2" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                                         <h4>
-                                            <img src="images/imageitem.png">
+                                            <img src="images/imageitem.png" draggable="false">
                                             Gebackener Apfel mit Teigmantel            
                                             <span>
                                                 0.56 kg
@@ -393,8 +393,8 @@
                                     
                                 </div>
 
-                                <div class="rd_itemthing2cont">
-                                    <div class="rd_itemcontaineritem">
+                                <div class="rd_itemthing2cont geld-items menu-items-container not-active" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                    <div class="rd_itemcontaineritem" id="geld1" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                                         <h4>
                                             <img src="images/imageitem.png">
                                             Gebackener Apfel mit Teigmantel
@@ -406,19 +406,19 @@
                                    
                                 </div>
 
-                                <div>
-                                    <div class="rd_itemcontaineritem" > 
+                                <div class="klamotten-items menu-items-container not-active" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                    <div class="rd_itemcontaineritem" id="klamotten1" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)"> 
                                         <h4>
-                                            <img src="images/imageitem.png">
+                                            <img src="images/imageitem.png" draggable="false">
                                             Gebackener Apfel mit Teigmantel            
                                             <span>
                                                 0.56 kg
                                             </span>
                                         </h4>
                                     </div>
-                                    <div class="rd_itemcontaineritem">
+                                    <div class="rd_itemcontaineritem" id="klamotten2" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
                                         <h4>
-                                            <img src="images/imageitem.png">
+                                            <img src="images/imageitem.png" draggable="false">
                                             Gebackener Apfel mit Teigmantel            
                                             <span>
                                                 0.56 kg
@@ -427,7 +427,43 @@
                                     </div>                                   
                                 </div>
 
-                                <div>
+                                <div class="rucksack-items menu-items-container not-active" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                    <div class="rd_itemcontaineritem" id="rucksack1" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)"> 
+                                        <h4>
+                                            <img src="images/imageitem.png" draggable="false">
+                                            Gebackener Apfel mit Teigmantel            
+                                            <span>
+                                                0.56 kg
+                                            </span>
+                                        </h4>
+                                    </div>
+                                    <div class="rd_itemcontaineritem" id="rucksack2" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                                        <h4>
+                                            <img src="images/imageitem.png" draggable="false">
+                                            Gebackener Apfel mit Teigmantel            
+                                            <span>
+                                                0.56 kg
+                                            </span>
+                                        </h4>
+                                    </div> 
+                                    <div class="rd_itemcontaineritem" id="rucksack3" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)"> 
+                                        <h4>
+                                            <img src="images/imageitem.png" draggable="false">
+                                            Gebackener Apfel mit Teigmantel            
+                                            <span>
+                                                0.56 kg
+                                            </span>
+                                        </h4>
+                                    </div>
+                                    <div class="rd_itemcontaineritem" id="rucksack4" draggable="true" ondragstart="drag(event)" ondragover="noAllowDrop(event)">
+                                        <h4>
+                                            <img src="images/imageitem.png" draggable="false">
+                                            Gebackener Apfel mit Teigmantel            
+                                            <span>
+                                                0.56 kg
+                                            </span>
+                                        </h4>
+                                    </div> 
                                 </div>                            
                             </div>
                             <!-- inventor showroom ends here -->
@@ -475,17 +511,17 @@
                         <!-- inventor full column container ends here -->
                         <!-- inventor right bar container starts here -->
                         <div class="rd_sidemenu">
-                            <button class="rd_sidebuttonthing">
+                            <button class="rd_sidebuttonthing" ondrop="drop(event)" ondragover="allowDrop(event)">
                                 <img class="rd_nomalimage" src="images/triangleside.png">
                                 <img class="rd_activeimage" src="images/trianglesideactive.png">
                                 0.2m
                             </button>
-                            <button class="rd_sidebuttonthing active">
+                            <button class="rd_sidebuttonthing active" ondrop="drop(event)" ondragover="allowDrop(event)">
                                 <img class="rd_nomalimage" src="images/triangleside.png">
                                 <img class="rd_activeimage" src="images/trianglesideactive.png">
                                 2m
                             </button>
-                            <button class="rd_sidebuttonthing">
+                            <button class="rd_sidebuttonthing" ondrop="drop(event)" ondragover="allowDrop(event)">
                                 <img class="rd_nomalimage" src="images/triangleside.png">
                                 <img class="rd_activeimage" src="images/trianglesideactive.png">
                                 2.2m
